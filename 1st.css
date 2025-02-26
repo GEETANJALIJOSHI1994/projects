@@ -31,10 +31,10 @@
     position: absolute;
     width: 100%;
     line-height: 60px;
-    box-shadow: 0 2px 4px rgba(255,255,255,0.5) ;
+    box-shadow:0 2px 4px rgba(255,255,255,0.5) ;
     height: 60px;
 }
-/* .sidebar_menu .logo a{
+.sidebar_menu .logo a{
     position: absolute;
     left: 50px;
     color: white;
@@ -56,9 +56,9 @@
     cursor: progress;
     position: absolute;
     left: 275px;
-    line-height: 60px; */
+    line-height: 60px;
     /* opacity: 0; */
-    /* transition:all 0.3s linear;
+    transition:all 0.3s linear;
 }
 .sidebar_menu .menu li{
     margin-top:6px ;
@@ -113,4 +113,4 @@
 }
 
 
- */
+
