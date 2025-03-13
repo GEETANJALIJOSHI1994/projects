@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frameset Example</title>
+  </head>
+  
+  <!-- Define the main frameset dividing the page into two rows -->
+  <frameset rows="20%,*">
+    <!-- Header Frame: occupies 20% of the screen height -->
+    <frame src="header.html" name="header">
+    
+    <!-- Nested frameset for the main section: divides into navigation and content -->
+    <frameset cols="25%,*">
+      <!-- Navigation Frame: occupies 25% of the width -->
+      <frame src="nav.html" name="navigation">
+      <!-- Content Frame: occupies the remaining width -->
+      <frame src="content.html" name="content">
+    </frameset>
+  </frameset>
+  
+  <!-- Fallback content for browsers that do not support frames -->
+  <noframes>
+    <body>
+      <p>Your browser does not support frames. Please update your browser to view this content.</p>
+    </body>
+  </noframes>
+</html>
