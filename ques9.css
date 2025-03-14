@@ -1,0 +1,24 @@
+span{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+div{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    display: inline;
+}
+#a{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    display:inline-block
+}
