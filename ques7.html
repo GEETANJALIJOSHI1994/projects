@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implement pseudo elements</title>
+    <style>
+        h1 ::before{
+            text-align: center;
+            border: 4px solid black;
+        }
+         h4::before{
+            content:"😊" ;
+        }
+        #a::after{
+            content: "🏨";
+        }
+        #b::after{
+            content: "🏠";
+        }
+        #c::after{
+            content: "🏬";
+        }
+        #d::after{
+            content: "🏫";
+        }
+
+    </style>
+</head>
+<body>
+    <h1>::After Pseudo Element</h1>
+    <h4>Academics</h3>
+    <h4>Spoken English</h3>
+    <h4>Coching Center</h3>
+    <h4>School</h3>
+    <h1>:: Before Pseudo Element</h1>
+    <h3 id="a">Hotel</h3>
+    <h3 id="b">House</h3>
+    <h3 id="c">Department Storer</h3>
+    <h3 id="d">School</h3>
+    
+</body>
+</html>
