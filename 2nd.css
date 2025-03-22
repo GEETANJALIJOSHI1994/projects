@@ -1,0 +1,16 @@
+div{
+    border:2px solid black;
+    padding:40px;
+    font-weight:bold;
+   }
+
+h2{
+    text-align: center;
+}
+label{
+    width: 100px;
+    display:inline-block;
+    padding-right:40px ;
+   
+   
+}
